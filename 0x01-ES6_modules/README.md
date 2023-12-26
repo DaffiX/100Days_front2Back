@@ -1,19 +1,23 @@
 <br/>
 
-![Downloads](https://img.shields.io/github/downloads/ShaanCoding/ReadME-Generator/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/ReadME-Generator?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/ReadME-Generator) ![License](https://img.shields.io/github/license/ShaanCoding/ReadME-Generator) [![Discord](https://img.shields.io/discord/199663269106024449)](https://discord.gg/6Kf422a)
+## Contents
 
-## Table Of Contents
-
-- [About The Modules](#about-the-project)
+- [About The Modules](#about)
 - [Built With](#built-with)
 
-- [Types of Export/Import in ES6](#contributing)
-
+- [Types of Export/Import in ES6](#export/import-in-ES6)
 - [License](#license)
 - [Authors](#authors)
 - [Acknowledgements](#acknowledgements)
 
-## About The Project
+## About
+
+Creating modules helps in:
+
+- Make it easier to keep sensitive information from other modules
+- Easier to reuse logics
+- Make it easier to debug and help in fix bugs
+- prevent namespace pollution as you only import what is needed
 
 ![Screen Shot](images/screenshot.png)
 
@@ -29,7 +33,7 @@ This show how Modules works:
 
 - [JavaScript](https://www.javascript.com/)
 
-## Types of Export/Import in ES6
+## Export/Import in ES6
 
 1. Named Exports:Multiple variables, functions, or classes can be exported by name from a module.
 
