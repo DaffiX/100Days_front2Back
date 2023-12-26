@@ -4,12 +4,11 @@
 
 ## Table Of Contents
 
-- [Table Of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
+- [About The Modules](#about-the-project)
 - [Built With](#built-with)
 
-- [Contributing](#contributing)
-  - [Creating A Pull Request](#creating-a-pull-request)
+- [Types of Export/Import in ES6](#contributing)
+
 - [License](#license)
 - [Authors](#authors)
 - [Acknowledgements](#acknowledgements)
@@ -30,13 +29,43 @@ This show how Modules works:
 
 - [JavaScript](https://www.javascript.com/)
 
-### Creating A Pull Request
+## Types of Export/Import in ES6
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Named Exports:Multiple variables, functions, or classes can be exported by name from a module.
+
+```javascript
+// In the module file
+export const variable1 = "Value1";
+export const variable2 = "Value2";
+
+export function myFunction() {
+  // function implementation
+}
+
+export class MyClass {
+  // class implementation
+}
+```
+
+Importing syntax
+
+```javascript
+// In another module
+import {
+  variable1,
+  variable2,
+  myFunction,
+  MyClass,
+} from "./path-to-your-module";
+```
+
+2. Default Export (`A module can have almost one default export`)
+
+```javascript
+// In the module file
+const myVariable = "some value";
+export default myVariable;
+```
 
 ## License
 
